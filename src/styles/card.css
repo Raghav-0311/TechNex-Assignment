@@ -1,0 +1,71 @@
+.card_container {
+    width: 30%;
+    position: relative;
+    background-color: #D7F8FE;
+    border-radius: 3rem;
+    overflow: hidden;
+    padding-bottom: 1rem;
+    box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    transition: 0.3s ease-in-out;
+}
+
+.card_container:hover {
+    transform: scale(1.02);
+}
+
+.card_container img {
+    width: 100%;
+    object-fit: cover;
+    height: 20rem;
+}
+
+.card_info {
+    margin: 0.5rem;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.rating {
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.5rem;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 1rem;
+}
+
+.brand, .category {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 1rem;
+}
+
+.description {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.discount {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.price {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
